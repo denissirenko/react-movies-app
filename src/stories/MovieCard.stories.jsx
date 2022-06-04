@@ -1,11 +1,11 @@
 import React from 'react';
-import { MovieCard } from '../components/movieCard';
+import { MovieCard } from '../components';
 
 import { movies } from './stub';
 
 // More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 export default {
-  title: 'Example/MovieCard',
+  title: 'Card/MovieCard',
   component: MovieCard,
 };
 
